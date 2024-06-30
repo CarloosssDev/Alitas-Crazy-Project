@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, red, orange);
+}
+
+.container {
+    width: 98%;
+    margin: 30px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header img {
+    margin-top: 1px;
+    width: 70%;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    padding: Spx;
+    margin: 2% 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+
+.nosotros {
+    width: 100%;
+}
+
+
+
+.container .menu li a.sobre_nosotros {
+    color: #ff6f61;
+}
+
+
+
+
+
+.menu>li:hover a {
+    color: #bdbdbd;
+}
+
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+
+.menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+aside {
+    text-align: center;
+    width: 55%;
+    padding: 20px;
+    background-color: wheat;
+}
+
+aside img {
+    width: 10%;
+    margin: 20px auto;
+    display: block;
+}
+
+video {
+    width: 100%;
+}
+
+audio {
+    text-align: center;
+}
+
+main {
+    background-color: wheat;
+
+}
+
+section {
+    margin: 3% auto;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+section img {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.subtitulo {
+    color: orangered;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section figure h3 {
+    font-size: 60px;
+}
+
+footer {
+    background: linear-gradient(135deg, #000000, #6b6866);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-social,
+.footer-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social a,
+.footer-payment img {
+    margin: 0 10px;
+}
+
+.footer-social a img,
+.footer-payment img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-libro-encuesta {
+    text-align: center;
+}
+
+.footer-contact p,
+.footer-libro-encuesta a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: white;
+}

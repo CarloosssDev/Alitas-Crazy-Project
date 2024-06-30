@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(135deg, red, orange);
+}
+
+.container {
+    width: 98%;
+    margin: 30px auto;
+}
+
+h1 {
+    background-color: black;
+    font-family: heebo;
+    color: orangered;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 70%;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    padding: Spx;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.container .menu li a.sede {
+    color: #ff6f61;
+}
+
+.menu>li:hover a {
+    color: #bdbdbd;
+}
+
+.menu>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+
+.menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+section {
+    display: flex;
+}
+
+figure {
+    display: flex;
+}
+
+figure img {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+}
+
+section p {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+section mapa {
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(135deg, #000000, #6b6866);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-social,
+.footer-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social a,
+.footer-payment img {
+    margin: 0 10px;
+}
+
+.footer-social a img,
+.footer-payment img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-libro-encuesta {
+    text-align: center;
+}
+
+.footer-contact p,
+.footer-libro-encuesta a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: linear-gradient(60deg, rgb(209, 136, 0), orangered);
+    ;
+}
